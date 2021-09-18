@@ -1,0 +1,264 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+/* Header */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --rad: #e50914;
+    --bg: #000000;
+    --lightBg: #222;
+    --grey: #aaa;
+    --blue: #0071eb;
+}
+
+body {
+    background-color: var(--bg) !important;
+    height: 400vh;
+}
+
+.headerIcon img {
+    width: 150px;
+}
+
+.headerLangDropDown {
+    background-color: rgba(1, 1, 0, 0.376);
+    color: white;
+    border: 1px solid var(--grey);
+    border-radius: 0px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+.dropdown-menu {
+    min-width: 6rem !important;
+    border-radius: 0px !important;
+    background-color: #aaa !important;
+    text-align: center !important;
+    padding: 0px !important;
+}
+
+.dropdown-menu li:hover {
+    background-color: #0071eb !important;
+    cursor: context-menu !important;
+}
+
+.headerArea {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.739), rgba(0, 0, 0, 0.719)), url(/img/icons/main\ banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.callToActionHeader {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.headerRightMenu {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.signInBtn button {
+    background-color: var(--rad);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+/* Header Content */
+
+.textContentCTA {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.allContent {
+    width: 100%;
+}
+
+.allContent h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.allContent h4 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.allContent p {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+/* emailId Section */
+
+.emailIdSection input {
+    width: 36%;
+    padding: 17px 13px;
+    outline: none;
+    border: none;
+}
+
+.getStartedBTN {
+    background-color: var(--rad);
+    color: white;
+    padding: 9.3px 45px 10px 45px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    position: relative;
+    top: 3px;
+    right: 2px;
+}
+
+.getStartedBTN:hover {
+    background-color: #f40612;
+}
+
+/* All Divider */
+
+.divider {
+    width: 100%;
+    background-color: var(--lightBg);
+    height: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+.divider2 {
+    margin-top: -156px;
+}
+
+.divider3{
+    margin-top: -35px;
+}
+
+/* TVSection */
+
+.TVSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.TVleftSection {
+    width: 50%;
+    position: relative;
+    bottom: 80px;
+}
+
+.heading h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.TVrightSection img {
+    width: 69%;
+    position: relative;
+    left: 105px;
+    z-index: 2;
+}
+
+.TVrightSection {
+    width: 50%;
+}
+
+.TVrightSection video {
+    position: relative;
+    bottom: 247px;
+    width: 51%;
+    left: 159px;
+}
+
+/* mobileSection */
+
+.mobileSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    width: 100%;
+}
+
+.leftMobileSection{
+    width: 46%;
+
+}
+.rightMobileSection{
+    width:54%;
+}
+.mobileImg img{
+    width: 500px;
+}
+
+/* mobileMovieBox */
+.mobileMovieBox{
+    
+    width: 64%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #404040;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 120px;
+    left: 63px;
+}
+
+.movieBoxImg img{
+    width: 54px;
+}
+
+.movieBoxGIF img{
+    width: 43px;
+}
+
+.movieBoxName{
+    position: relative;
+    right: 39px;
+}
+.movieBoxName p:first-child{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+}
+
+.movieBoxName p:last-child{
+    color: var(--blue);
+    font-size: 15px;
+    font-weight: 400;
+}
