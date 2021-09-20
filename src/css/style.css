@@ -19,7 +19,6 @@
 
 body {
     background-color: var(--bg) !important;
-    height: 400vh;
 }
 
 .headerIcon img {
@@ -150,9 +149,22 @@ body {
     margin-top: -156px;
 }
 
-.divider3{
+.divider3 {
     margin-top: -35px;
 }
+
+.divider4 {
+    margin-top: -183px;
+}
+
+.divider5 {
+    margin-top: 0px;
+}
+
+.divider6 {
+    margin-top: 60px;
+}
+
 
 /* TVSection */
 
@@ -202,7 +214,7 @@ body {
 
 /* mobileSection */
 
-.mobileSection{
+.mobileSection {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -210,20 +222,21 @@ body {
     width: 100%;
 }
 
-.leftMobileSection{
+.leftMobileSection {
     width: 46%;
+}
 
+.rightMobileSection {
+    width: 54%;
 }
-.rightMobileSection{
-    width:54%;
-}
-.mobileImg img{
+
+.mobileImg img {
     width: 500px;
 }
 
 /* mobileMovieBox */
-.mobileMovieBox{
-    
+
+.mobileMovieBox {
     width: 64%;
     background-color: black;
     display: flex;
@@ -237,19 +250,20 @@ body {
     left: 63px;
 }
 
-.movieBoxImg img{
+.movieBoxImg img {
     width: 54px;
 }
 
-.movieBoxGIF img{
+.movieBoxGIF img {
     width: 43px;
 }
 
-.movieBoxName{
+.movieBoxName {
     position: relative;
     right: 39px;
 }
-.movieBoxName p:first-child{
+
+.movieBoxName p:first-child {
     color: white;
     font-size: 17px;
     font-weight: 500;
@@ -257,8 +271,178 @@ body {
     top: 15px;
 }
 
-.movieBoxName p:last-child{
+.movieBoxName p:last-child {
     color: var(--blue);
     font-size: 15px;
     font-weight: 400;
+}
+
+/* image2 */
+
+.image2 img {
+    width: 93%;
+    position: relative;
+    left: -8px;
+    z-index: 2;
+}
+
+/* video2 */
+
+.video2 {
+    position: relative !important;
+    bottom: 380px !important;
+    width: 61% !important;
+    left: 81px !important;
+}
+
+/* heading2videoArea */
+
+.heading2videoArea {
+    position: relative;
+    bottom: 105px;
+}
+
+/* childrenSection */
+
+.childrenSection {
+    position: relative;
+    left: 54px;
+}
+
+.faqHeading {
+    color: white;
+    text-align: center;
+}
+
+/* faq */
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.allFaqs {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--lightBg);
+    color: white;
+    padding: 20px 20px 15px 20px;
+    font-size: 26px !important;
+    font-weight: 400;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.allFaqs h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.allFaqs h1:last-child {
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.openFaqSection {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightBg);
+    color: white;
+    padding: 20px 20px;
+    font-size: 18px !important;
+    font-weight: 400;
+    margin-top: 1px;
+    display: none;
+}
+
+.faqHeading h1 {
+    margin: 40px 0px 30px 0px;
+}
+
+.bottomEmailSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.bottomEmailHEading p {
+    color: white;
+    margin: 50px 0px 20px 0px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.bottomEmailIdSection {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomGetStartedBTN{
+    position: relative !important;
+    bottom: 0px !important;
+    left: 2px !important;
+    top: 0px !important;
+    right: 0px !important;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    color: var(--grey);
+}
+
+.footerContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerItems{
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactDetails{
+    width: 67%;
+    text-align: left;
+}
+
+.column ul li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 16px 0px;
+    cursor: pointer;
+}
+
+.column ul li:hover{
+    text-decoration: underline var(--grey);
+}
+
+.bottomDropDown{
+    position: relative;
+    right: 398px;
+    margin: 15px 0px;
+    padding: 15px 10px;
+    border-color: var(--grey);
+    color: var(--grey);
+}
+
+.NetflixCountryName{
+    width: 67%;
+    text-align: left;
 }
